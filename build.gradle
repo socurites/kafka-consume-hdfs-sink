@@ -1,0 +1,13 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+  implementation group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.30'
+  implementation group: 'org.apache.kafka', name: 'kafka-clients', version: '2.8.0'
+  implementation group: 'org.apache.hadoop', name: 'hadoop-client', version: '3.3.0'
+}
